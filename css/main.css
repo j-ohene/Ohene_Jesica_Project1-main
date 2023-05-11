@@ -10,7 +10,26 @@
     display: none;
 }
 body{
+font-family: 'chakrapetch', Arial, Helvetica, sans-serif;
 background-color: rgb(211, 166, 124);
+}
+nav{
+background-color:rgb(241, 218, 173) ;
+text-align: center;
+padding:30px;
+
+}
+#nav_bar ul a{
+  padding-top: 20px;  
+  padding-bottom:20px;
+  padding-left: 40px;
+  padding-right:40px;
+  text-decoration: none;
+  color:rgb(172, 10, 10)
+}
+#nav_bar ul a:hover{
+    color: rgb(72, 4, 4);
+    cursor: pointer;
 }
 h1,h2,h3,p{
     font-family: 'chakrapetch', Arial, Helvetica, sans-serif;
