@@ -9,6 +9,9 @@
 .hidden {
     display: none;
 }
+body{
+background-color: rgb(232, 148, 69);
+}
 h1,h2,h3,p{
     font-family: 'chakrapetch', Arial, Helvetica, sans-serif;
 }
@@ -17,7 +20,7 @@ h1,h2,h3,p{
     margin: 20px auto;
     width: 460px;
     border: solid 1px #333;
-    background: #efefef;
+    background: rgb(241, 218, 173);
     border-radius: 10px;
 }
 
@@ -36,13 +39,16 @@ article {
 article h1{
 font-size: 40px;
 text-align: center;
+color:rgb(172, 10, 10)
 }
 #caption{
     font-size: 14px;
+    color:rgb(122, 122, 122)
 }
 #caption img{
     margin-bottom: none;
     padding-bottom: none;
+    background-color: rgb(255, 236, 197);
 }
 img {
     margin-top: 0px;
