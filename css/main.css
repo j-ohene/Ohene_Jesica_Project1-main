@@ -1,8 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
-
+@font-face{
+    font-family:'chakrapetch';
+    src:url('../fonts/ChakraPetch-Medium.ttf') format('truetype');
+    src:url('../fonts/ChakraPetch-Regular.ttf')format('truetype');
+    src:url('../fonts/ChakraPetch-SemiBold.ttf')format('truetype')
+}
 .hidden {
     display: none;
+}
+h1,h2,h3,p{
+    font-family: 'chakrapetch', Arial, Helvetica, sans-serif;
 }
 
 #container {
